@@ -75,6 +75,16 @@ const Vegetables = () => {
                 <p>Rs.50 / kg</p>
                 <button>Add to Cart</button>
               </div>
+              <div>
+              <button className="explore-more-btn">Explore More</button>
+              </div>
+            </div>
+
+            <div className="fast-delivery">
+              <div className="fast-delivery-content">
+              <h1>Get the freshest vegetables at your doorstep in no time! </h1>
+              <h3>Same-day delivery available.Order now and enjoy quick, reliable service!  </h3>
+              </div>
             </div>
       
             <footer className="footer">
