@@ -20,26 +20,26 @@ const Vegetables = () => {
               </div>
             </div>
       
-            <div className="categories">
+            <div className="Home_categories">
               <h2>Shop by Categories</h2>
-              <div className="categories-container">
-                <div className="category-card">
+              <div className="Home_categories-container">
+                <div className="Home_category-card">
                   <img className="hoover-target" src={leafyGreen} alt="Leafy Greens" />
                   <p className="hover-paragraph">Leafy Greens</p>
                 </div>
-                <div className="category-card">
+                <div className="Home_category-card">
                   <img className="hoover-target" src={rootVegetable} alt="Root Vegetables" />
                   <p className="hover-paragraph">Root Vegetables</p>
                 </div>
-                <div className="category-card">
+                <div className="Home_category-card">
                   <img className="hoover-target" src={organicProduce} alt="Organic Produce" />
                   <p className="hover-paragraph">Organic Produce</p>
                 </div>
-                <div className="category-card">
+                <div className="Home_category-card">
                   <img className="hoover-target" src={herbSpices} alt="Herbs & Spices" />
                   <p className="hover-paragraph">Herbs & Spices</p>
                 </div>
-                <div className="category-card">
+                <div className="Home_category-card">
                   <img className="hoover-target" src={exoticvegetables} alt="exotic Vegetables" />
                   <p className="hover-paragraph">Exotic Vegetables</p>
                 </div>

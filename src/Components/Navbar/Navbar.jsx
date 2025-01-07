@@ -36,6 +36,10 @@ const Navbar = () => {
             <li onClick={()=>{setMenu("organicproduce")}}> <Link style={{textDecoration:'none',color:'white'}} to ='/organicproduce'>Organic Produce</Link> {menu==="organicproduce"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("herbsspices")}}> <Link style={{textDecoration:'none',color:'white'}} to ='/herbsspices'>Herbs & Spices</Link> {menu==="herbs&spices"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("exoticvegetables")}}> <Link style={{textDecoration:'none',color:'white'}} to ='/exoticvegetables'>Exotic Vegetables</Link> {menu==="exoticvegetables"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("seasonalvegetables")}}> <Link style={{textDecoration:'none',color:'white'}} to ='/seasonalvegetables'>Seasonal Vegetables</Link> {menu==="seasonalvegetables"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("microgreens")}}> <Link style={{textDecoration:'none',color:'white'}} to ='/microgreens'>Micro Greens</Link> {menu==="microgreens"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("gourmetvegetables")}}> <Link style={{textDecoration:'none',color:'white'}} to ='/gourmetvegetables'>Gourmet Vegetables</Link> {menu==="gourmetvegetables"?<hr/>:<></>}</li>
+
           </ul>
         </li>
         <li onClick={()=>{setMenu("about")}} > <Link style={{textDecoration:'none',color:'white'}} to='/about'>About Us</Link> {menu==="about"?<hr/>:<></>}</li>
