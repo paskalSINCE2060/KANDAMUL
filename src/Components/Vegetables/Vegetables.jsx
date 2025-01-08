@@ -16,7 +16,9 @@ const Vegetables = () => {
               <div className="hero-content">
                 <h1>Fresh & Organic Vegetables</h1>
                 <p>Discover a wide range of farm-fresh vegetables delivered to your doorstep.</p>
+                <a href="/categories">
                 <button className="shop-now-btn">Shop Now</button>
+                </a>
               </div>
             </div>
       
@@ -24,24 +26,25 @@ const Vegetables = () => {
               <h2>Shop by Categories</h2>
               <div className="Home_categories-container">
                 <div className="Home_category-card">
-                  <img className="hoover-target" src={leafyGreen} alt="Leafy Greens" />
-                  <p className="hover-paragraph">Leafy Greens</p>
+                  <a href="/leafygreens"><img className="hoover-target" src={leafyGreen} alt="Leafy Greens" />
+                  <p className="hover-paragraph">Leafy Greens</p></a>
+
                 </div>
                 <div className="Home_category-card">
-                  <img className="hoover-target" src={rootVegetable} alt="Root Vegetables" />
-                  <p className="hover-paragraph">Root Vegetables</p>
+                  <a href="/rootvegetables"><img className="hoover-target" src={rootVegetable} alt="Root Vegetables" />
+                  <p className="hover-paragraph">Root Vegetables</p></a>
                 </div>
                 <div className="Home_category-card">
-                  <img className="hoover-target" src={organicProduce} alt="Organic Produce" />
-                  <p className="hover-paragraph">Organic Produce</p>
+                  <a href="/organicproduce"><img className="hoover-target" src={organicProduce} alt="Organic Produce" />
+                  <p className="hover-paragraph">Organic Produce</p></a>
                 </div>
                 <div className="Home_category-card">
-                  <img className="hoover-target" src={herbSpices} alt="Herbs & Spices" />
-                  <p className="hover-paragraph">Herbs & Spices</p>
+                  <a href="/herbsspices"><img className="hoover-target" src={herbSpices} alt="Herbs & Spices" />
+                  <p className="hover-paragraph">Herbs & Spices</p></a>
                 </div>
                 <div className="Home_category-card">
-                  <img className="hoover-target" src={exoticvegetables} alt="exotic Vegetables" />
-                  <p className="hover-paragraph">Exotic Vegetables</p>
+                  <a href="/exoticvegetables"><img className="hoover-target" src={exoticvegetables} alt="Exotic Vegetables" />
+                  <p className="hover-paragraph">Exotic Vegetables</p></a>
                 </div>
               </div>
             </div>
