@@ -2,13 +2,15 @@
   
   .home {
     text-align: center;
-    overflow-x: hidden;
   }
-  
+  a{
+    text-decoration: none;
+  }
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url("../Assets/home_banner.jpg") center/cover no-repeat;
       background-attachment: fixed;
+      overflow-x: hidden;
     color: white;
     padding: 100px 20px;
     height:400px;
@@ -167,21 +169,18 @@
     cursor: pointer;
     transition: background-color 0.3s;
   }
+  .explore-more-btn span{
+    text-decoration: none;
+    color: white;
+  }
+  .explore-more-btn span:hover{
+    font-size: 17px;
+  }
   
   .explore-more-btn:hover {
     background-color: rgb(247, 81, 51);
   }
-  
-  .footer {
-    background-color: #27ae60;
-    color: white;
-    padding: 20px;
-    margin-top: 50px;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
+
 
   .fast-delivery{
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),

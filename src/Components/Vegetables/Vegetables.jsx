@@ -76,7 +76,7 @@ const Vegetables = () => {
                 <button>Add to Cart</button>
               </div>
               <div>
-              <button className="explore-more-btn">Explore More</button>
+              <button className="explore-more-btn"><a href="/categories"><span>Explore More</span></a></button>
               </div>
             </div>
 
@@ -86,10 +86,6 @@ const Vegetables = () => {
               <h3>Same-day delivery available.Order now and enjoy quick, reliable service!  </h3>
               </div>
             </div>
-      
-            <footer className="footer">
-              <p>&copy; 2025 KANDAMUL. All rights reserved.</p>
-            </footer>
           </div>
         );
       };
