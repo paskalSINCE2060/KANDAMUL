@@ -1,9 +1,10 @@
 import React from 'react';
+import Gourmet from '../Components/GourmetVegetable/Gourmet';
 
 const GourmetVegetables=()=>{
     return (
         <div>
-            <h1>Gourmet Vegetables</h1>
+            <Gourmet/>
         </div>
     )
 }

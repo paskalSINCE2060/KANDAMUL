@@ -41,7 +41,7 @@ const SeasonalVegetables = () => {
         
         <div className="SeasonalVegetables_category-card">
             <img src={ButternutSquash} alt="ButternutSquash"/>
-            <h3>Butternut Squash(Full Seasonal)</h3>
+            <h3>Butternut(Full Seasonal)</h3>
         </div>
         
         <div className="SeasonalVegetables_category-card">

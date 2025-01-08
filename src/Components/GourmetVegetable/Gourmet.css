@@ -1,16 +1,15 @@
-.SeasonalVegetables_heading{
+.GourmetVegetables_heading{
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../Assets/SeasonalVegetables_banner.jpg") center/cover no-repeat;
+    url("../Assets/GourmentVegetable_banner.jpg") center/cover no-repeat;
     background-attachment: fixed;
     overflow-x: hidden;
-    color: white;
-    padding: 100px 20px;
-    height: 100px;
-    margin-top: -10px;
+  color: white;
+  padding: 100px 20px;
+  height:100px;
+  margin-top: -10px;
 }
-
-.SeasonalVegetables_categories {
+.GourmetVegetables_categories {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
@@ -19,7 +18,7 @@
     margin: 0 auto;
 }
   
-.SeasonalVegetables_category-card {
+.GourmetVegetables_category-card {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -28,18 +27,19 @@
     cursor: pointer;
 }
   
-.SeasonalVegetables_category-card:hover {
+.GourmetVegetables_category-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
   
-.SeasonalVegetables_category-card img {
+  
+.GourmetVegetables_category-card img {
     width: 100%;
     height: 180px;
     object-fit: cover;
 }
   
-.SeasonalVegetables_category-card h3 {
+.GourmetVegetables_category-card h3 {
     text-align: center;
     padding: 15px 10px;
     background-color: rgb(237, 169, 23);
@@ -47,8 +47,9 @@
     font-size: 18px;
 }
   
+  
 @media (max-width: 600px) {
-    .SeasonalVegetables_category-card h3 {
+    .GourmetVegetables_category-card h3 {
         font-size: 16px;
         padding: 10px;
     }

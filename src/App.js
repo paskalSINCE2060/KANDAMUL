@@ -14,6 +14,7 @@ import HerbsSpices from './Pages/HerbsSpices';
 import ExoticVegetables from './Pages/ExoticVEgetables';
 import Seasonal from './Pages/Seasonal';
 import MicroGreens from './Pages/MicroGreens';
+import GourmetVegetables from './Pages/Gourmet Vegetables';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
         <Route path="/herbsspices" element={<HerbsSpices category="herbsspices"/> } />
         <Route path="/exoticvegetables" element={<ExoticVegetables category="exoticvegetables"/> } />
         <Route path="/seasonalvegetables" element={<Seasonal category="seasonalvegetables"/> } />
-        <Route path="/microgreen" element={<MicroGreens category="microgreen"/> } />
+        <Route path="/microgreens" element={<MicroGreens category="microgreen"/> } />
+        <Route path="/gourmetvegetables" element={<GourmetVegetables category="GourmetVegetables"/> } />
         <Route path="/product" element={<Product/>}>
         <Route path=':productId' element={<Product/>}/>
         </Route>

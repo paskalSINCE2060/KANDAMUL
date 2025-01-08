@@ -1,9 +1,12 @@
 import React from 'react';
+import MicroG from '../Components/MicroGreens/MicroG';
+
+
 
 const MicroGreens=()=>{
     return (
         <div>
-            <h1>Microgreens Page</h1>
+           <MicroG/>
         </div>
     )
 }
