@@ -1,9 +1,10 @@
 import React from 'react';
+import SeasonalVegetables from '../Components/SeasonalVegetable/SeasonalVegetables';
 
 const Seasonal=()=>{
     return(
         <div>
-            Seasonal Vegetables Page
+           <SeasonalVegetables/>
         </div>
     )
 }

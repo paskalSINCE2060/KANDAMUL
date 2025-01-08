@@ -1,9 +1,10 @@
 import React from 'react';
+import Herbs from '../Components/Herbs/Herbs';
 
 const HerbsSpices=()=>{
     return (
         <div>
-            <h1>Herbs and Spices</h1>
+            <Herbs/>
         </div>
     )
 }

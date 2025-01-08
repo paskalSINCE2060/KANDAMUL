@@ -1,9 +1,10 @@
 import React from 'react';	
+import Exotic from '../Components/ExoticVegetables/Exotic';
 
 const ExoticVegetables=()=>{
     return (
         <div>
-            Exotic Vegetables Page
+            <Exotic/>
         </div>
     )
 }
