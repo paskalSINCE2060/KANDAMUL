@@ -1,9 +1,10 @@
 import React from 'react';
+import Organic from '../Components/Organic/Organic';
 
 const OrganicPRoduce=()=>{
     return(
         <div>
-            Organic Products
+            <Organic/>
         </div>
     )
 }
