@@ -1,12 +1,12 @@
 import React from 'react';
-import LeafyGreen_categories from '../Assets/leafy_green_categories.jpg';
-import RootVegetables_categories from '../Assets/rootVegetable_categories.jpg';
-import OrganicProduce_categories from '../Assets/organicProduce_categories.jpg';
-import HerbsSpices_categories from '../Assets/herbsspices_categories.jpg';
-import ExoticVegetables_categories from '../Assets/exoticvegetables_categories.jpg';
-import SeasonalVegetables_categories from '../Assets/seasonalvegetables_categories.jpg';
-import MicroGreens_categories from '../Assets/microgreens_categories.jpg';
-import GourmetVegetables_categories from '../Assets/gourmetvegetables_categories.jpg';
+import Spinach from '../Assets/spinach.jpg';
+import Lettuce from '../Assets/Lettuce.jpg';
+import SwissChard from '../Assets/swisschard.jpg';
+import CollardGreens from '../Assets/CollardGreens.jpg';
+import MustardGreens from '../Assets/MustardGreens.jpg';
+import Watercress from '../Assets/Watercress.jpg';
+import TurnipGreens from '../Assets/TurnipGreens.jpg';
+import DandelionGreens from '../Assets/DandelionGreens.jpg';
 import './LeafyGreen.css';
 
 const LeafyGreen = () => {
@@ -15,46 +15,46 @@ const LeafyGreen = () => {
             <h1 className="LeafyGreen_heading">Leafy Greens</h1>
     <div class="LeafyGreen_categories">
       <div class="LeafyGreen_category-card">
-        <img src={LeafyGreen_categories} alt="Leafy Greens"/>
+        <img src={Spinach} alt="Spinach"/>
         <h3>Spinach</h3>
       </div>
       
       
       <div class="LeafyGreen_category-card">
-        <img src={RootVegetables_categories} alt="Root Vegetables"/>
+        <img src={Lettuce} alt="Lettuce"/>
         <h3>Lettuce</h3>
       </div>
       
       
       <div class="LeafyGreen_category-card">
-        <img src={OrganicProduce_categories} alt="Organic Produce"/>
+        <img src={SwissChard} alt="Swiss Chard"/>
         <h3>Swiss Chard</h3>
       </div>
       
      
       <div class="LeafyGreen_category-card">
-        <img src={HerbsSpices_categories} alt="Herbs and Spices"/>
+        <img src={CollardGreens} alt="Collard Greens"/>
         <h3>Collard Greens</h3>
       </div>
       
     
       <div class="LeafyGreen_category-card">
-        <img src={ExoticVegetables_categories} alt="Exotic Vegetables"/>
+        <img src={MustardGreens} alt="Mustard Greens"/>
         <h3>Mustard Greens</h3>
       </div>
 
       <div class="LeafyGreen_category-card">
-        <img src={SeasonalVegetables_categories} alt="Seasonal Vegetables"/>
+        <img src={Watercress} alt="Watercress"/>
         <h3>Watercress</h3>
       </div>
 
       <div class="LeafyGreen_category-card">
-        <img src={MicroGreens_categories} alt="Microgreens"/>
+        <img src={TurnipGreens} alt="Turnip Greens"/>
         <h3>Turnip Greens</h3>
       </div>
 
       <div class="LeafyGreen_category-card">
-        <img src={GourmetVegetables_categories} alt="Gourmet Vegetables"/>
+        <img src={DandelionGreens} alt="DandelionGreens"/>
         <h3>Dandelion Greens</h3>
       </div>
     </div>

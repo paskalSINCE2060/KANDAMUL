@@ -1,5 +1,13 @@
 .LeafyGreen_heading{
     text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../Assets/leafy_green_banner.jpg") center/cover no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  color: white;
+  padding: 100px 20px;
+  height:100px;
+  margin-top: -10px;
 }
 .LeafyGreen_categories {
     display: grid;
@@ -34,7 +42,7 @@
 .LeafyGreen_category-card h3 {
     text-align: center;
     padding: 15px 10px;
-    background-color: #27ae60;
+    background-color: rgb(237, 169, 23);
     color: white;
     font-size: 18px;
 }
