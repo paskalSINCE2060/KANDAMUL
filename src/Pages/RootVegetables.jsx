@@ -1,11 +1,12 @@
 import React from 'react';
+import RootVegetables from '../Components/RootVegetables/RootVegetables';
 
-const RootVegetables=()=>{
+const RootVegetable=()=>{
     return(
         <div>
-            <h1>Root Vegetables</h1>
+            <RootVegetables/>
         </div>
     )
 }
 
-export default RootVegetables;
+export default RootVegetable;
