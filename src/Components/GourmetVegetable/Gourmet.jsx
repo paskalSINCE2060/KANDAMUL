@@ -21,40 +21,40 @@ const Gourmet = () => {
     </div>
   
   
-  <div class="GourmetVegetables_category-card">
+  <div className="GourmetVegetables_category-card">
     <img src={WhiteAsparagus} alt="WhiteAsparagus"/>
     <h3>WhiteAsparagus</h3>
   </div>
   
   
-  <div class="GourmetVegetables_category-card">
+  <div className="GourmetVegetables_category-card">
     <img src={TruffleMushrooms} alt="Truffle Mushrooms"/>
     <h3>Truffle Mushrooms</h3>
   </div>
   
  
-  <div class="GourmetVegetables_category-card">
+  <div className="GourmetVegetables_category-card">
     <img src={BabyCarrots} alt="Baby Carrots"/>
     <h3>Baby Carrots</h3>
   </div>
   
 
-  <div class="GourmetVegetables_category-card">
+  <div className="GourmetVegetables_category-card">
     <img src={HeirloomTomatoes} alt="Heirloom Tomatoes"/>
     <h3>Heirloom Tomatoes</h3>
   </div>
 
-  <div class="GourmetVegetables_category-card">
+  <div className="GourmetVegetables_category-card">
     <img src={RomanescoBroccoli} alt="Romanesco Broccoli"/>
     <h3>Romanesco Broccoli</h3>
   </div>
 
-  <div class="GourmetVegetables_category-card">
+  <div className="GourmetVegetables_category-card">
     <img src={Shallots} alt="Shallots"/>
     <h3>Shallots</h3>
   </div>
 
-  <div class="GourmetVegetables_category-card">
+  <div className="GourmetVegetables_category-card">
     <img src={FiddleheadFerns} alt="FiddleheadFerns"/>
     <h3>Fiddlehead Ferns</h3>
   </div>

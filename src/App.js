@@ -4,6 +4,7 @@ import Footer from './Components/Footer/Footer';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './Pages/Home';
 import ShopCategory from './Pages/ShopCategory';
+
 import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
@@ -15,6 +16,8 @@ import ExoticVegetables from './Pages/ExoticVEgetables';
 import Seasonal from './Pages/Seasonal';
 import MicroGreens from './Pages/MicroGreens';
 import GourmetVegetables from './Pages/Gourmet Vegetables';
+import AboutUs from './Pages/AboutUs';
+import ContactUs from './Pages/ContactUs';
 
 function App() {
   return (
@@ -24,6 +27,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/categories" element={<ShopCategory/> } />
+        <Route path="/about" element ={<AboutUs/>} />
+        <Route path="/contact" element ={<ContactUs/>}/>
         <Route path="/leafygreens" element={<LeafyGreen category="leafygreens"/> } />
         <Route path="/rootvegetables" element={<RootVegetables category="rootvegetables"/> } />
         <Route path="/organicproduce" element={<OrganicPRoduce category="organicproduce"/> } />
