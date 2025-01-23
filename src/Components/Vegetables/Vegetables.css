@@ -190,6 +190,115 @@
   padding: 100px 20px;
   overflow-x: hidden;
   margin-bottom: -50px;
+  margin-top:'20px';
+  }
+  .cart-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    animation: fadeInOut 3s ease-in-out;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    90% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+  .box-container2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 12px; 
+    width: 1210px;
+    margin-left:30px;
+    margin-bottom: 25px;
+  }
+  
+  .box2 {
+    width: 200px;
+    border: 1px solid #eaeaea;
+    border-radius: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .box-image2 {
+    width: 105px; 
+    height: 90px; 
+    object-fit: cover; 
+    margin-top: 13px;
+  }
+  
+  
+  .box-description2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    font-weight: 600;
+  }
+  
+  .weight {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  .amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a3e23;
+    margin: 10px 0;
+  }
+  
+  .add-button-box-container2{
+  display: block;
+  margin: 1px auto;
+  width: 180px;
+  height: 40px;
+  background-color: #eef5e9;
+  color: #1a3e23;
+  border: none;
+  border-radius: 10px 20px 30px 40px;
+  ;
+  font-size: 24px;
+  cursor: pointer;
+  }
+
+  .Needs{
+    margin-top: 40px;
+    text-align: left;
+    color: #333; 
+    margin-left:50px;
+     
+  }
+  .box-container3 {
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 12px; 
+    width: 1210px;
+    margin-left:30px;
+
   }
   
   @media screen and (max-width: 768px) {

@@ -7,7 +7,9 @@ import ShopCategory from './Pages/ShopCategory';
 
 import Product from './Pages/Product';
 import Cart from './Pages/Cart';
-import LoginSignup from './Pages/LoginSignup';
+import Login from '../src/Components/LoginSignup/Login.jsx';
+import SignUp from '../src/Components/LoginSignup/SignUp.jsx';
+
 import LeafyGreen from './Pages/LeafyGreens';
 import RootVegetables from './Pages/RootVegetables';
 import OrganicPRoduce from './Pages/OrganicProduce';
@@ -18,6 +20,7 @@ import MicroGreens from './Pages/MicroGreens';
 import GourmetVegetables from './Pages/Gourmet Vegetables';
 import AboutUs from './Pages/AboutUs';
 import ContactUs from './Pages/ContactUs';
+import Checkout from './Pages/Checkout.jsx';
 
 function App() {
   return (
@@ -41,7 +44,10 @@ function App() {
         <Route path=':productId' element={<Product/>}/>
         </Route>
         <Route path="/cart" element={<Cart/>} />
-        <Route path="/login" element={<LoginSignup/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/signup" element={<SignUp/>} />
+        <Route path="/checkout" element={<Checkout/>} />
+
 
       </Routes>
       <Footer/>

@@ -7,10 +7,10 @@ const About = () => {
             <main>
         <section className="about">
             <h1>About Us</h1>
-            <p>Welcome to KANDAMUL Online, your one-stop shop for the freshest and healthiest vegetables! We are passionate about bringing farm-fresh produce directly to your doorstep. Our mission is to support sustainable farming practices while ensuring our customers get the best quality vegetables.</p>
+            <p>Welcome to GhasPath Online, your one-stop shop for the freshest and healthiest vegetables! We are passionate about bringing farm-fresh produce directly to your doorstep. Our mission is to support sustainable farming practices while ensuring our customers get the best quality vegetables.</p>
 
             <h2>Our Story</h2>
-            <p>KANDAMUL Online started with a vision to connect local farmers with urban households. We believe everyone deserves access to nutritious and affordable vegetables, and we are committed to making that a reality.</p>
+            <p>GhasPath Online started with a vision to connect local farmers with urban households. We believe everyone deserves access to nutritious and affordable vegetables, and we are committed to making that a reality.</p>
 
             <h2>Why Choose Us?</h2>
             <ul>

@@ -28,7 +28,7 @@ const Footer = () => {
  
     <div className="footer-column">
       <h4>Contact Us</h4>
-      <p>Email: support@kandamul.com</p>
+      <p>Email: support@ghaspath.com</p>
       <p>Phone: +977 9849997322</p>
       <p>Address: Kathmandu, Baneshwor</p>
     </div>
@@ -37,15 +37,15 @@ const Footer = () => {
     <div className="footer-column">
       <h4>Follow Us</h4>
       <div className="social-icons">
-        <a href="https://www.facebook.com/gaaubesilogistics/"><img src={Facebook} alt="Facebook"/></a>
-        <a href="https://kandamul.gaaubesi.com.np/"><img src={Twitter} alt="Twitter"/></a>
-        <a href="https://kandamul.gaaubesi.com.np/swagger/"><img src={Instagram} alt="Instagram"/></a>
+        <a href="https://www.facebook.com/login.php/"><img src={Facebook} alt="Facebook"/></a>
+        <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyIiOiIiLCJteCI6IjIifQ%3D%3D%22%7D"><img src={Twitter} alt="Twitter"/></a>
+        <a href="https://www.instagram.com/accounts/login/"><img src={Instagram} alt="Instagram"/></a>
       </div>
     </div>
   </div>
 
   <div className="footer-bottom">
-    <p>&copy; 2025 KANDAMUL. All Rights Reserved.</p>
+    <p>&copy; 2025 GhasPath. All Rights Reserved.</p>
   </div>
 
         </div>
